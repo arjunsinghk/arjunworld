@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arjun Singh K 20094 - Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Arjun Singh K 20094's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#research">Research Profile</a></li>
+                <li><a href="#courses">Course Content</a></li>
+                <li><a href="#quiz">Quiz System</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="research">
+        <h2>Research Profile</h2>
+        <p>Details about research publications, projects, and achievements will be listed here.</p>
+        <img src="images/research.jpg" alt="Research Image">
+    </section>
+
+    <section id="courses">
+        <h2>Course Content</h2>
+        <p>Course materials, lecture notes, and downloadable resources will be available here.</p>
+        <ul>
+            <li>Course 1: Introduction to AI</li>
+            <li>Course 2: Data Structures</li>
+            <li>Course 3: Web Development</li>
+        </ul>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz System</h2>
+        <p>Registered students can take quizzes here. Admin (Arjun Singh) can add or remove questions.</p>
+
+        <div id="admin-panel">
+            <h3>Admin Panel</h3>
+            <form id="add-question-form">
+                <label for="question">Question:</label><br>
+                <input type="text" id="question" name="question"><br>
+                <label for="option1">Option 1:</label><br>
+                <input type="text" id="option1" name="option1"><br>
+                <label for="option2">Option 2:</label><br>
+                <input type="text" id="option2" name="option2"><br>
+                <label for="option3">Option 3:</label><br>
+                <input type="text" id="option3" name="option3"><br>
+                <label for="option4">Option 4:</label><br>
+                <input type="text" id="option4" name="option4"><br>
+                <label for="answer">Correct Answer:</label><br>
+                <input type="text" id="answer" name="answer"><br><br>
+                <button type="submit">Add Question</button>
+            </form>
+        </div>
+
+        <div id="student-quiz">
+            <h3>Student Quiz</h3>
+            <p>Students will see available quizzes here and submit their answers.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arjun Singh K 20094</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
